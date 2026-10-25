@@ -1,6 +1,6 @@
 # Asta’s Preparation Dashboard
 
-Author identifier supplied by user: **GHady98**. Replace with your full name if required by the instructor.
+Author: **Ghady Nazha** · GitHub: **GHady98**.
 
 A responsive educational dashboard built with Next.js, TypeScript, and Tailwind CSS. Asta can view three predefined training tasks, complete/undo them, and see calculated preparation-plan completion. All tasks start incomplete. **Progress resets after refresh**; no storage, backend, accounts, or runtime external services are used.
 
@@ -56,3 +56,4 @@ Set `BASE_URL` to test another local port. The browser test regenerates evidence
 Branch: `assignment-2-asta-mvp`. Local implementation and verification are complete. The lab still needs genuine Stitch work or an instructor-accepted fallback, a real classmate/friend pilot, personal reflections, full name, and public GitHub publication. No Stitch connection, user research, or pilot feedback is fabricated. There is no Git remote configured in this workspace. No credentials were introduced.
 
 This is a fictional teaching scenario inspired by Black Clover by Yuki Tabata. Decorative symbols are text glyphs; no character artwork is included. A live deployment is optional.
+

@@ -29,3 +29,4 @@ The screenshots were visually inspected. The 360px design has readable wrapping 
 - `evidence/complete.png`: desktop 100% state.
 - `evidence/mobile-complete.png`: mobile 33% state.
 - `evidence/keyboard-focus.png`: keyboard focus and activated task.
+

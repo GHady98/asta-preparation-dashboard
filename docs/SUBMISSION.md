@@ -2,9 +2,9 @@
 
 To: khaled@techtalkslb.com
 
-Subject: Assignment 2 – Asta’s Preparation Dashboard – [Your Full Name]
+Subject: Assignment 2 – Asta’s Preparation Dashboard – Ghady Nazha
 
-Full name: [Pending; user supplied GHady98]
+Full name: Ghady Nazha
 Public GitHub repository: [Pending publication]
 Branch: assignment-2-asta-mvp
 Design screenshots: docs/evidence/; local design fallback documented in docs/DESIGN.md
@@ -20,3 +20,4 @@ Known limitations: Progress intentionally resets after refresh. Stitch design an
 - Replace placeholders above and email the instructor yourself, or explicitly instruct the agent to send after the draft is ready.
 
 No email has been sent. No deadline was specified in the assignment. Deployment is optional.
+

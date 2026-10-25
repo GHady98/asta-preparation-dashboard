@@ -23,3 +23,4 @@ Create/refine the design in Stitch and retain genuine before/after evidence. If 
 ## Browser fallback attempt
 
 The official Stitch URL was opened in the in-app browser. Repeated accessibility observations showed only the page and an embedded frame; the visible page remained blank with no usable design controls. See evidence/stitch-unavailable.png. No project was created and no authentication or billing change was made. Prepared handoff prompts are in STITCH-HANDOFF.md.
+

@@ -9,3 +9,4 @@ Actual automated results: `node --experimental-strip-types scripts/progress-test
 Observation: Two of three rounds to 67%, not 66%. Priority must not weight the percentage if these required results are to hold. Node emits a harmless module-type warning for the standalone TypeScript test.
 
 Decision: Continue and reuse this state module and functional update in the MVP. This experiment demonstrates calculation feasibility, not usability, accessibility, or product demand. Browser-level MVP checks are recorded separately.
+

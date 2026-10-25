@@ -9,3 +9,4 @@ Design desktop and mobile versions of Asta’s Preparation Dashboard. Use charco
 ## Required refinement
 
 Review your first result for small text and missing mobile status. Enlarge task descriptions to at least 16px. Make Complete/Incomplete explicit on every mobile task card and leave enough space below each control. Remove any out-of-scope features. Retain genuine before and after screenshots, explain the improvement, and record the shareable project link if available.
+
