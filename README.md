@@ -61,3 +61,5 @@ This is a fictional teaching scenario inspired by Black Clover by Yuki Tabata. D
 ## Publication update — 25 October 2026
 
 Author: **Ghady Nazha**. Public repository: [GHady98/asta-preparation-dashboard](https://github.com/GHady98/asta-preparation-dashboard). Assignment branch: [assignment-2-asta-mvp](https://github.com/GHady98/asta-preparation-dashboard/tree/assignment-2-asta-mvp). Existing milestone history is preserved. Publication is complete; see docs/SUBMISSION.md for the email record and remaining coursework limitations.
+
+Submission email sent on 25 October 2026 to khaled@techtalkslb.com and confirmed in Gmail Sent. The message discloses the remaining coursework limitations; publication and sending do not establish instructor acceptance.
