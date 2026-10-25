@@ -1,6 +1,6 @@
 # Asta’s Preparation Dashboard
 
-Status: Draft — awaiting user review before implementation.
+Status: Implementation baseline. User authorized the full lab and accepted the equal-weight clarification.
 
 ## Summary
 
@@ -70,7 +70,7 @@ These are fictional teaching examples, not official character statistics.
 ## Design and accessibility
 
 - One responsive dashboard screen with a clear title and introduction, compact threat brief, task list, and progress summary.
-- Proposed palette pending review: dark charcoal, warm white, and restrained red. Maintain at least 4.5:1 contrast for normal text and 3:1 for large text and meaningful interface boundaries.
+- Selected local fallback palette: dark charcoal, warm white, and restrained red. Maintain at least 4.5:1 contrast for normal text and 3:1 for large text and meaningful interface boundaries.
 - Use readable typography, a minimum 16px body size, clear hierarchy, and sufficient spacing. Use a single-column task layout on narrow screens.
 - Completion targets should be at least 44 × 44 CSS pixels with descriptive labels and a visible focus indicator.
 - Use semantic headings and native controls. Give the progress indicator an accessible name and current value; announce summary changes politely to assistive technology.
@@ -95,6 +95,7 @@ Login, accounts, database, payments, chatbot, combat simulation, multiplayer, li
 
 ## Review gate
 
-The user must review this draft before application implementation. Record any user correction and its reason in `docs/REVIEW.md`. Do not describe a draft as approved or invent reviewer feedback.
+The user authorized proceeding and accepted the clarification that priority does not weight completion. The actual decision is recorded in `docs/REVIEW.md`. No other user-authored correction is claimed.
 
-Review update: The user instructed the agent to proceed with the full lab. The draft is used as the implementation baseline; no specific user-authored requirement correction has been supplied.
+Review update: The user instructed the agent to proceed with the full lab and subsequently accepted equal weighting regardless of priority.
+

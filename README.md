@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Asta’s Preparation Dashboard
 
-## Getting Started
+Author identifier supplied by user: **GHady98**. Replace with your full name if required by the instructor.
 
-First, run the development server:
+A responsive educational dashboard built with Next.js, TypeScript, and Tailwind CSS. Asta can view three predefined training tasks, complete/undo them, and see calculated preparation-plan completion. All tasks start incomplete. **Progress resets after refresh**; no storage, backend, accounts, or runtime external services are used.
 
-```bash
+## Run locally
+
+Use Node.js 22.18+ or Node.js 24 and npm.
+
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. For a production preview:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm run build
+npm run start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Verify
 
-## Learn More
+```sh
+npm run lint
+npm run build
+npm test
+```
 
-To learn more about Next.js, take a look at the following resources:
+The focused state test uses Node's TypeScript stripping. Its module-type warning is informational. Browser checks use Playwright. Install its Chromium browser once with `npx playwright install chromium`, start the production server on port 3001 (`npm run start -- --port 3001`), and run `npm run test:browser`. Alternatively, use an installed Edge browser in PowerShell:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```powershell
+$env:BROWSER_CHANNEL = 'msedge'
+npm run test:browser
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Set `BASE_URL` to test another local port. The browser test regenerates evidence screenshots. Actual completed checks and limitations are documented in docs/REVIEW.md.
 
-## Deploy on Vercel
+## Documents
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [PRD](docs/PRD.md): scope, sample data, behaviour, acceptance criteria.
+- [Design](docs/DESIGN.md): visual decisions, actual refinement, screenshots.
+- [POC](docs/POC.md): experiment and actual results. Git commit `9be59b2` preserves the plain experiment.
+- [MCP](docs/MCP.md): unavailable Stitch tool access and honest local fallback.
+- [Review](docs/REVIEW.md): verification, accepted clarification, reflection notes, outstanding human pilot.
+- [Evidence](docs/evidence/): actual browser screenshots.
+- [Submission draft](docs/SUBMISSION.md): email template and outstanding steps.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Structure and state
+
+`app/page.tsx` provides static framing. `app/training-plan.tsx` is the small Client Component because checkboxes need React state and events. `app/training.ts` contains fixed tasks, immutable toggling, and derived progress. Each task contributes equally; priority is informational. One task displays 33%, two 67%, three 100%.
+
+## Submission status and limitations
+
+Branch: `assignment-2-asta-mvp`. Local implementation and verification are complete. The lab still needs genuine Stitch work or an instructor-accepted fallback, a real classmate/friend pilot, personal reflections, full name, and public GitHub publication. No Stitch connection, user research, or pilot feedback is fabricated. There is no Git remote configured in this workspace. No credentials were introduced.
+
+This is a fictional teaching scenario inspired by Black Clover by Yuki Tabata. Decorative symbols are text glyphs; no character artwork is included. A live deployment is optional.
