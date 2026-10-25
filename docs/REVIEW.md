@@ -4,7 +4,7 @@
 
 - User confirmed session-only progress, which resets after refresh.
 - User authorized continuing the full lab and accepted the clarification that all tasks contribute equally regardless of priority. This removes ambiguity about weighted progress and preserves the required 33%, 67%, and 100% values. This is an accepted clarification, not a fabricated complaint about an earlier suggestion.
-- The user supplied `GHady98` as their name/identifier. A full legal/display name and repository URL were not supplied.
+- The user supplied `GHady98` as their name/identifier. The user later supplied the full name Ghady Nazha and authorized publication under GHady98.
 
 ## Actual verification — 25 October 2026
 
@@ -43,5 +43,5 @@ These are factual study notes. Rewrite the reflections in your own words before 
 
 ## Remaining limitations
 
-No screen-reader user test or comprehensive accessibility audit was conducted. No real human pilot, Stitch design, or successful Stitch MCP interaction is claimed. No GitHub remote was configured, public repository was published, email sent, or live deployment created. Session progress intentionally resets.
+No screen-reader user test or comprehensive accessibility audit was conducted. No real human pilot, Stitch design, or successful Stitch MCP interaction is claimed. The GitHub remote and public publication are now complete. Email status is recorded in SUBMISSION.md. No live deployment was created. Session progress intentionally resets.
 

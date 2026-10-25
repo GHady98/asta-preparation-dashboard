@@ -1,23 +1,19 @@
-# Submission draft — do not send until completed
+# Submission record
 
-To: khaled@techtalkslb.com
+Author: Ghady Nazha
+
+Recipient: khaled@techtalkslb.com
 
 Subject: Assignment 2 – Asta’s Preparation Dashboard – Ghady Nazha
 
-Full name: Ghady Nazha
-Public GitHub repository: [Pending publication]
-Branch: assignment-2-asta-mvp
-Design screenshots: docs/evidence/; local design fallback documented in docs/DESIGN.md
-MCP: Stitch tools were not available in this session. See docs/MCP.md for the actual limitation; no successful connection is claimed.
-Known limitations: Progress intentionally resets after refresh. Stitch design and human pilot evidence must still be supplied; replace this line with the final status before sending.
+Public repository: https://github.com/GHady98/asta-preparation-dashboard
 
-## Before submission
+Branch: https://github.com/GHady98/asta-preparation-dashboard/tree/assignment-2-asta-mvp
 
-- Supply the required full name and rewrite reflections in your own words.
-- Complete an actual test with a classmate/friend and record what happened.
-- Complete Stitch design/refinement and keep genuine evidence, or confirm the fallback is acceptable with the instructor.
-- Create a public GitHub repository and configure its URL as origin. Push the existing branch with `git push -u origin assignment-2-asta-mvp`.
-- Replace placeholders above and email the instructor yourself, or explicitly instruct the agent to send after the draft is ready.
+Status: Public repository created and assignment branch pushed on 25 October 2026. Email is prepared and authorized; delivery has not yet been confirmed. See submission-email.txt for the exact prepared text.
 
-No email has been sent. No deadline was specified in the assignment. Deployment is optional.
+## Disclosed limitations
 
+The app, PRD, POC, tests, and browser screenshots are included. Stitch/MCP access was unavailable, so the local design fallback and actual limitation are documented in docs/MCP.md and docs/DESIGN.md. A real peer pilot and personal reflection still need completion; no feedback or connection evidence has been invented. Progress intentionally resets after refresh.
+
+Email send status will be updated only after a visible sent confirmation.

@@ -1,0 +1,17 @@
+Hello Khaled,
+
+I am submitting the current implementation of Assignment 2: Asta’s Preparation Dashboard.
+
+Full name: Ghady Nazha
+Public repository: https://github.com/GHady98/asta-preparation-dashboard
+Branch: assignment-2-asta-mvp
+Branch URL: https://github.com/GHady98/asta-preparation-dashboard/tree/assignment-2-asta-mvp
+
+Design screenshots: docs/evidence/ in the repository.
+MCP: documented unavailable-access fallback; no successful connection claimed.
+
+Known limitations:
+The app, PRD, POC, tests, and browser screenshots are included. Stitch/MCP access was unavailable, so the local design fallback and actual limitation are documented in docs/MCP.md and docs/DESIGN.md. A real peer pilot and personal reflection still need completion; no feedback or connection evidence has been invented. Progress intentionally resets after refresh.
+
+Thank you,
+Ghady Nazha

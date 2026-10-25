@@ -53,7 +53,11 @@ Set `BASE_URL` to test another local port. The browser test regenerates evidence
 
 ## Submission status and limitations
 
-Branch: `assignment-2-asta-mvp`. Local implementation and verification are complete. The lab still needs genuine Stitch work or an instructor-accepted fallback, a real classmate/friend pilot, personal reflections, full name, and public GitHub publication. No Stitch connection, user research, or pilot feedback is fabricated. There is no Git remote configured in this workspace. No credentials were introduced.
+Branch: `assignment-2-asta-mvp`. Local implementation and verification are complete. The lab still needs genuine Stitch work or an instructor-accepted fallback, a real classmate/friend pilot, and personal reflections. No Stitch connection, user research, or pilot feedback is fabricated. The full name is Ghady Nazha, and the assignment branch is now published publicly. No credentials were introduced.
 
 This is a fictional teaching scenario inspired by Black Clover by Yuki Tabata. Decorative symbols are text glyphs; no character artwork is included. A live deployment is optional.
 
+
+## Publication update — 25 October 2026
+
+Author: **Ghady Nazha**. Public repository: [GHady98/asta-preparation-dashboard](https://github.com/GHady98/asta-preparation-dashboard). Assignment branch: [assignment-2-asta-mvp](https://github.com/GHady98/asta-preparation-dashboard/tree/assignment-2-asta-mvp). Existing milestone history is preserved. Publication is complete; see docs/SUBMISSION.md for the email record and remaining coursework limitations.
