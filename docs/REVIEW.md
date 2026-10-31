@@ -36,7 +36,7 @@ These are factual study notes. Rewrite the reflections in your own words before 
 1. The PRD limits the product to three fixed tasks and excludes task creation, accounts, and persistence, preventing extra features from distracting from completion tracking.
 2. The POC tests state/calculation consistency. It does not establish usability, market demand, or battle readiness.
 3. The MVP supports a complete useful flow: see the plan, complete or undo a task, and understand progress.
-4. No Stitch MCP access was available. The agent used the written requirements and a local design; actual Stitch evidence remains missing.
+4. No Stitch MCP access was available. The agent used the written requirements and a local design. Khaled accepted this honest fallback in his 31 October reply; later real Stitch evidence is optional if access becomes available.
 5. The accepted clarification makes progress equal-weighted. The agent also corrected small supporting text and missing mobile status in its first design.
 6. Completion is a record of booleans keyed by task ID. A functional state update copies that record and flips one value. The summary counts true values and rounds completed / 3 × 100. This avoids duplicate counts and stale counter updates.
 7. The human still owns scope, honest evidence, design review, understanding the code, checking real behaviour, gathering pilot feedback, and deciding whether the result is ready to submit.
